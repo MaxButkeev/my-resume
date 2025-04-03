@@ -4,11 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Мое резюме</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Имя Фамилия</h1>
-    <p>Позиция: Software Engineer</p>
-    <p>Email: example@email.com</p>
-    <p>Опыт работы: 5 лет</p>
+    <div class="resume-container">
+        <header>
+            <img src="assets/profile.jpg" alt="Фото" class="profile-pic">
+            <h1>Имя Фамилия</h1>
+            <h2>Software Engineer</h2>
+        </header>
+
+        <section class="about">
+            <h3>Обо мне</h3>
+            <p>Опытный разработчик с 5-летним стажем в веб-разработке. Специализируюсь на фронтенде и бэкенде.</p>
+        </section>
+
+        <section class="experience">
+            <h3>Опыт работы</h3>
+            <div class="job">
+                <h4>Senior Developer</h4>
+                <p>Компания XYZ (2020 - настоящее время)</p>
+                <ul>
+                    <li>Разработка веб-приложений на React и Node.js</li>
+                    <li>Оптимизация производительности</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h4>Junior Developer</h4>
+                <p>Компания ABC (2018 - 2020)</p>
+                <ul>
+                    <li>Создание адаптивного UI</li>
+                    <li>Работа с API</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h3>Навыки</h3>
+            <ul class="skills-list">
+                <li>JavaScript</li>
+                <li>React.js</li>
+                <li>Node.js</li>
+                <li>HTML & CSS</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section class="contact">
+            <h3>Контакты</h3>
+            <p>Email: example@email.com</p>
+            <p>GitHub: github.com/yourusername</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        </section>
+    </div>
 </body>
 </html>
